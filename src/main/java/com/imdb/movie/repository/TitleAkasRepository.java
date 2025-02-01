@@ -6,5 +6,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface TitleAkasRepository extends JpaRepository<TitleAkas, String> {
-    // Additional query methods can go here
+
 }

@@ -17,15 +17,15 @@ public class TitleEpisode {
 
     @Id
     @Column(name = "tconst", nullable = false)
-    private String tconst; // Episode identifier
+    private String tconst;
 
     @Column(name = "parentTconst", length = 255)
-    private String parentTconst; // Parent TV series identifier
+    private String parentTconst;
 
     @Column(name = "seasonNumber")
-    private Integer seasonNumber; // Season number the episode belongs to
+    private Integer seasonNumber;
 
     @Column(name = "episodeNumber")
-    private Integer episodeNumber; // Episode number in the season
+    private Integer episodeNumber;
 }
 

@@ -19,22 +19,22 @@ public class TitlePrincipals {
 
     @Id
     @Column(name = "tconst", nullable = false, length = 255)
-    private String tconst; // Unique identifier of the title
+    private String tconst;
 
     @Id
     @Column(name = "ordering", nullable = false)
-    private Integer ordering; // Unique row identifier for the title
+    private Integer ordering;
 
     @Column(name = "nconst", length = 255)
-    private String nconst; // Unique identifier of the person
+    private String nconst;
 
     @Column(name = "category", length = 100)
-    private String category; // Job category (e.g., actor, director)
+    private String category;
 
     @Column(name = "job", length = 255)
-    private String job; // Specific job title (or null if not applicable)
+    private String job;
 
     @Column(name = "characters", length = 1000)
-    private String characters; // Name of the character played (or null if not applicable)
+    private String characters;
 }
 

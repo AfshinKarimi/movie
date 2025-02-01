@@ -17,22 +17,22 @@ public class NameBasics {
 
     @Id
     @Column(name = "nconst", nullable = false)
-    private String nconst; // Unique identifier of the person
+    private String nconst;
 
     @Column(name = "primaryName", length = 255)
-    private String primaryName; // Name by which the person is most often credited
+    private String primaryName;
 
     @Column(name = "birthYear", length = 4)
-    private String birthYear; // Birth year in YYYY format
+    private String birthYear;
 
     @Column(name = "deathYear", length = 4)
-    private String deathYear; // Death year in YYYY format, or null if not applicable
+    private String deathYear;
 
     @Column(name = "primaryProfession", length = 500)
-    private String primaryProfession; // Stored as a comma-separated string (e.g., "actor,producer,director")
+    private String primaryProfession;
 
     @Column(name = "knownForTitles", length = 1000)
-    private String knownForTitles; // Stored as a comma-separated string (e.g., "tt0000001,tt0000002")
+    private String knownForTitles;
 }
 
 

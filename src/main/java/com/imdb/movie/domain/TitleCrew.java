@@ -20,8 +20,8 @@ public class TitleCrew {
     private String tconst;
 
     @Column(name = "directors", length = 1000)
-    private String directors; // Stored as a comma-separated string (e.g., "nm0001,nm0002")
+    private String directors;
 
     @Column(name = "writers", length = 1000)
-    private String writers; // Stored as a comma-separated string (e.g., "nm0003,nm0004")
+    private String writers;
 }

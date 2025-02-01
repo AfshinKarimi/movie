@@ -17,12 +17,12 @@ public class TitleRatings {
 
     @Id
     @Column(name = "tconst", nullable = false)
-    private String tconst; // Unique identifier of the title
+    private String tconst;
 
     @Column(name = "averageRating", nullable = false)
-    private Double averageRating; // Weighted average rating
+    private Double averageRating;
 
     @Column(name = "numVotes", nullable = false)
-    private Integer numVotes; // Number of votes received
+    private Integer numVotes;
 }
 

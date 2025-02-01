@@ -44,6 +44,6 @@ public class TitleBasics {
     private Integer runtimeMinutes;
 
     @Column(name = "genre")
-    private String genres; // Stored as a comma-separated string 11407938
+    private String genres;
 }
 
